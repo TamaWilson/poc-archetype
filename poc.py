@@ -9,5 +9,6 @@ postgres = "true" if input("Incluir Postgres? (S/N) ").lower() == "s" else "fals
 installComannd = "mvn clean install"
 createCommand = f"""mvn archetype:generate "-DoutputDirectory=../" "-DinteractiveMode=false" "-DarchetypeGroupId=br.com.tamawilson" "-DarchetypeArtifactId=poc-archetype" "-DarchetypeVersion=1.0-SNAPSHOT" "-DgroupId={groupId}" "-DartifactId={artifactId}" "-Dlombok={lombok}" "-Dpostgres={postgres}" "-DappName={appName}"""
 
+os.install(f"{installComannd}")
 print(createCommand)
 os.system(f"{createCommand}")

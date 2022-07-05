@@ -11,19 +11,19 @@
             </includes>
         </fileSet>
         <fileSet filtered="true" encoding="UTF-8">
-            <directory>src/main/resources</directory>
+            <directory>src/main/java/resources</directory>
             <includes>
                 <include>**/*.properties</include>
             </includes>
         </fileSet>
         <fileSet filtered="true" encoding="UTF-8">
-            <directory>src/main/application</directory>
+            <directory>src/main/java/application</directory>
         </fileSet>
         <fileSet filtered="true" encoding="UTF-8">
-            <directory>src/main/domain</directory>
+            <directory>src/main/java/domain</directory>
         </fileSet>
         <fileSet filtered="true" encoding="UTF-8">
-            <directory>src/main/infrastructure</directory>
+            <directory>src/main/java/infrastructure</directory>
         </fileSet>
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
             <directory>src/test/java</directory>
