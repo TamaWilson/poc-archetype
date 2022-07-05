@@ -15,4 +15,4 @@ Digite o ArtifactId: teste-py
 Incluir Lombok? (S/N) s
 Incluir Postgres? (S/N) s
 ```
-After those questions you will find the created project on a upper folder outside this repository folder.
+After those questions, wait till all maven process finish and you will find the created project on a upper folder outside this repository folder.
